@@ -69,18 +69,65 @@ if (age >= 16) {
 
 // A. the basics
 
-for (let i = 0; i < 10; i++) {
-    console.log(i);  
+// for (let i = 0; i < 10; i++) {
+//     console.log(i);  
+// }
+
+// for (let i = 10; i <= 400; i++) {
+//     console.log(i);
+// }
+
+// let v = 12;
+//     while (v < 4000) {
+//         if (v != 0 && v % 3 == 0)
+//             console.log(v);;
+//         v++;
+//     }
+
+// B. Get Even
+
+// let g = 1;
+//     while (g <= 100) {
+//         if (g % 2 == 0)
+//             console.log(g , 'is an even number');
+//         g++;
+//     }
+
+// C. Give me Five
+
+// let f = 0;
+//     while (f <= 100) { 
+//         if (f % 5 == 0) {
+//             console.log("I found a" , f , "High five!" );
+//         } 
+//         if (f % 3 == 0) {
+//             console.log("I found a" , f , "Three is a crowd");
+//         }    
+//         f++;
+//     } 
+
+// D. Savings Account
+
+// function findSum(n) {
+//     let bankAccount = 0;
+//     for(let e = 1; e <= n; e++) {
+//       bankAccount = bankAccount + e;
+//     }
+//     return bankAccount
+//   }
+  
+//   let n = 10;
+//   console.log(`Sum of numbers from 1 to ${n} is ${findSum(n)}`)
+
+let bankAccount = 0
+for (let e = 1; e <= 10; e++) {
+    bankAccount += e; 
+} 
+
+console.log(bankAccount);
+
+for (let e = 1; e <= 100; ++e) {
+    bankAccount += 2 * e
 }
 
-for (let i = 10; i <= 400; i++) {
-    console.log(i);
-}
-
-let v = 12;
-    while (v < 4000) {
-        if (v != 0 && v % 3 == 0)
-            console.log(v);;
-        v++;
-    }
-
+console.log(bankAccount);

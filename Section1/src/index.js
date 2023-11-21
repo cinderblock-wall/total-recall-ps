@@ -64,3 +64,23 @@ if (age >= 16) {
 } else {
     console.log("Sorry, you're too young.");
 }
+
+//* Loops
+
+// A. the basics
+
+for (let i = 0; i < 10; i++) {
+    console.log(i);  
+}
+
+for (let i = 10; i <= 400; i++) {
+    console.log(i);
+}
+
+let v = 12;
+    while (v < 4000) {
+        if (v != 0 && v % 3 == 0)
+            console.log(v);;
+        v++;
+    }
+
